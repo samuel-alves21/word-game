@@ -1,0 +1,16 @@
+div.letter {
+  position: relative;
+  padding: 22px;
+  text-align: center;
+  font-size: 30px
+}
+
+div.letter::after {
+  content: '';
+  position: absolute;
+  background-color: rgb(250, 102, 146);
+  height: 1.5px;
+  width: 50%;
+  top: 76%;
+  left: 28%;
+}

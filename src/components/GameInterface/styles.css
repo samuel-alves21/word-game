@@ -1,0 +1,49 @@
+div.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.word-container {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+span.choosed-topic {
+  color: rgb(250, 102, 159);
+}
+
+p.letter-p {
+margin: 10px;
+}
+
+div.submit-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.letter-input {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 20px;
+  outline: none;
+  transition: all 0.5s;
+  border: none;
+  border-radius: 3px;
+  margin: 10px 0;
+  color: white;
+}
+
+.letter-input:focus {
+  border-radius: 20px;
+  background-color: rgb(80, 80, 253);
+
+}
+
+button.button {
+  width: 100%;
+  font-size: 18px;
+}
+
