@@ -23,6 +23,9 @@ export class GameSection extends Component{
   }
 
   handleChange = (e) => {
+    if (e.target.value.length > 1) {
+      document.querySelector('.letter-input').value = this.state.letterInput
+    }
     this.setState({letterInput: e.target.value})
   }
 
