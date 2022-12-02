@@ -43,7 +43,10 @@ div.submit-div {
 }
 
 button.button {
-  width: 100%;
   font-size: 18px;
+}
+
+.game-btn { 
+  width: 100%;
 }
 

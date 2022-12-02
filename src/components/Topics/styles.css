@@ -12,13 +12,17 @@ p.topic-p {
 button.button {
   margin: 10px 5px;
   border: none;
-  padding: calc(0.7vw + 2px);
+  padding:calc(0.7vw + 5px) calc(0.7vw + 40px);
   background-color: rgb(69, 127, 253);
   color: white;
   font-size: 15px;
   border-radius: 5px;
   transition: transform 0.3s;
   cursor: pointer;
+}
+
+.topic-button {
+  width: calc(7vw + 200px);
 }
 
 button.button:hover {
