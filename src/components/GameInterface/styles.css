@@ -26,10 +26,10 @@ div.submit-div {
 
 .letter-input {
   width: 100%;
-  padding: 10px 10px;
-  font-size: 20px;
+  padding: 7px 10px;
+  font-size: calc(2vw + 10px);
   outline: none;
-  transition: all 0.5s;
+  transition: border-radius 0.5s;
   border: none;
   border-radius: 3px;
   margin: 10px 0;
