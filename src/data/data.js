@@ -19,5 +19,12 @@ export const data = {
     'updates',
     'javascript',
     'react'
+  ],
+  'escola': [
+    'mesa',
+    'quadro',
+    'refeitorio',
+    'professor',
+    'aprendizagem'
   ]
 }
