@@ -1,1 +1,0 @@
-console.log('3'.match(/[a-z]/i))

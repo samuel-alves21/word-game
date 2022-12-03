@@ -26,7 +26,7 @@ export class GameSection extends Component{
     if (e.target.value.length > 1) {
       document.querySelector('.letter-input').value = this.state.letterInput
     }
-    this.setState({letterInput: e.target.value})
+    this.setState({letterInput: e.target.value.toLowerCase()})
   }
 
   handleClick = () => {

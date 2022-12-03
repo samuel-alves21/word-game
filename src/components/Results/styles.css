@@ -6,3 +6,7 @@ h4.results-title {
   color:rgb(250, 102, 146);
   margin-bottom: 30px;
 }
+
+p.results-body {
+  padding: 0 30px;
+}

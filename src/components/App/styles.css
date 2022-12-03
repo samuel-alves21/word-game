@@ -38,7 +38,7 @@ section.main-container {
 }
 
 .text {
-  margin-bottom: 50px;
+  margin-bottom: calc(1vw + 5px);
 }
 
 .title1 {

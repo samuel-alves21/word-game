@@ -1,7 +1,7 @@
 export const data = {
   'natureza': [
     'chuva',
-    'neve',
+    'neve', //  1
     'vento',
     'tornado',
     'ceu'
