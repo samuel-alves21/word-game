@@ -4,5 +4,5 @@ p.error-p {
   padding: 3px calc(0.5vw + 10px);
   color: white;
   margin-bottom: 20px;
-  font-size: calc(1.5vw + 10px);
+  font-size: calc(1.5vw + 8px);
 } 
