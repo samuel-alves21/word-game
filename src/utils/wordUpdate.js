@@ -1,6 +1,5 @@
 export const wordUpdate = (secretWord, letter, life) => {
   let cont = 0
-  console.log(secretWord)
   const divsWord = document.querySelectorAll('.letter')
   for (let i in secretWord) {
     if (secretWord[i] === letter) {

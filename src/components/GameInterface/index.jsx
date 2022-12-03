@@ -24,7 +24,7 @@ export const GameInterface = ({choosedTopic, secretWordArr, error, handleChange,
           onChange={handleChange} 
           onKeyDown={handleKeyDown} 
           />
-          <button className="button game-btn" onClick={handleClick}>ok</button>
+          <button className="button game-btn" type="submit" onClick={handleClick}>ok</button>
         </div>
       </div>
   )
