@@ -1,30 +1,37 @@
 export const data = {
-  'natureza': [
+  'Natureza': [
     'chuva',
-    'neve', //  1
+    'neve',
     'vento',
     'tornado',
     'ceu'
   ],
-  'dinheiro': [
+  'Dinheiro': [
     'moeda',
     'carteira',
     'lucro',
     'investimento',
     'prejuizo'
   ],
-  'tecnologia': [
+  'Tecnologia': [
     'computador',
     'programacao',
     'updates',
     'javascript',
     'react'
   ],
-  'escola': [
+  'Escola': [
     'mesa',
     'quadro',
     'refeitorio',
     'professor',
     'aprendizagem'
+  ],
+  'Roupa': [
+    'gola',
+    'costura',
+    'molde',
+    'tecido',
+    'linha'
   ]
 }
