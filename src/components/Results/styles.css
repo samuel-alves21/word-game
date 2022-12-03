@@ -9,4 +9,17 @@ h4.results-title {
 
 p.results-body {
   padding: 0 30px;
+  margin-bottom: 30px;
+}
+
+a.results-link,
+a.results-link:visited {
+  color:rgb(250, 102, 146);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a.results-link:hover,
+a.results-link:active {
+  color:rgb(248, 90, 138);
 }

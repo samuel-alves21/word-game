@@ -5,6 +5,7 @@ export const Result = ({result}) => {
     <div className="results">
       <h4 className='results-title'>{result.title}</h4>
       <p className='results-body'>{result.body}</p>
+      <a className='results-link' href="/">clique para jogar novamente</a>
     </div>
   )
 }
