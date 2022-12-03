@@ -7,7 +7,7 @@ div.game-container {
 }
 
 div.word-container {
-  margin: calc(2vw + 10px) 0;
+  margin: calc(2vw + 20px) 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
